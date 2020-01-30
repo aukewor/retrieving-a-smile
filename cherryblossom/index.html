@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>cherry blossom
+    </title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <img class="cherryblossom" src="1997.gif" alt="1997 cherry blossom">
+    </div>
+
+    <div class="container">
+      <img class="cherryblossom" src="1998.gif" alt="1998 cherry blossom">
+    </div>
+
+    <div class="container">
+      <img class="cherryblossom" src="1999.gif" alt="1999 cherry blossom">
+    </div>
+
+    <div class="container">
+      <img class="cherryblossom" src="2000.gif" alt="2000 cherry blossom">
+    </div>
+
+    <div class="container">
+      <img class="cherryblossom" src="2001.gif" alt="2001 cherry blossom">
+    </div>
+
+    <div class="container">
+      <img class="cherryblossom" src="2004.gif" alt="2004 cherry blossom">
+    </div>
+
+    <div class="container">
+      <img class="cherryblossom" src="2006.gif" alt="2006 cherry blossom">
+    </div>
+
+    <div class="container">
+      <img class="cherryblossom" src="2008.gif" alt="2008 cherry blossom">
+    </div>
+
+    <div class="container">
+      <img class="cherryblossom" src="2010.png" alt="2010 cherry blossom">
+    </div>
+
+    <div class="container">
+      <img class="cherryblossom" src="2008-apple.png" alt="2008 apple cherry blossom">
+    </div>
+
+    <div class="container">
+      <img class="cherryblossom" src="2010-apple.png" alt="2010 apple cherry blossom">
+    </div>
+
+    <div class="container">
+      <img class="cherryblossom" src="2012-apple.png" alt="2012 apple cherry blossom">
+    </div>
+
+    <!-- <div class="container">
+      <img class="cherryblossom" src="2015-apple.png" alt="2015 apple cherry blossom">
+    </div> -->
+
+    <div class="container">
+      <img class="cherryblossom" src="2016-apple.png" alt="2016 apple cherry blossom">
+    </div>
+
+    <!-- <div class="container">
+      <img class="cherryblossom" src="2019-apple.png" alt="2019 apple cherry blossom">
+    </div> -->
+
+
+
+  </body>
+
+  <script type="text/javascript">
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName ("cherryblossom");
+      for ( i = 0; i < x.length; i++ ) {
+        x[i].style.display = "none";
+      }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel,200);
+    }
+  </script>
+
+</html>

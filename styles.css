@@ -1,0 +1,15 @@
+body {
+  font-size: 18px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.links {
+  margin: 1%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}

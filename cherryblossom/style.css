@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.cherryblossom {
+  display: none;
+}
+
+.container {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  width: initial;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* #a{
+  animation-name: shifter;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+} */
+
+/* @keyframes shifter {
+  0% {
+    opacity: 0;
+  100% {
+    opacity: 1;
+  }
+} */

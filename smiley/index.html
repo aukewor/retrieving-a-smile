@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>smiley
+    </title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <img class="smiley" src="1997.gif" alt="1997 softbank smiley">
+    </div>
+
+    <div class="container">
+      <img class="smiley" src="1998.gif" alt="1998 softbank smiley">
+    </div>
+
+    <div class="container">
+      <img class="smiley" src="1999-softbank.gif" alt="1999 softbank smiley">
+    </div>
+
+    <div class="container">
+      <img class="smiley" src="2000-softbank.gif" alt="2000 softbank smiley">
+    </div>
+
+    <div class="container">
+      <img class="smiley" src="2001-softbank.gif" alt="2001 softbank smiley">
+    </div>
+
+    <div class="container">
+      <img class="smiley" src="2004-softbank.gif" alt="2004 softbank smiley">
+    </div>
+
+    <div class="container">
+      <img class="smiley" src="2006-softbank.gif" alt="2006 softbank smiley">
+    </div>
+
+    <div class="container">
+      <img class="smiley" src="2008-softbank.gif" alt="2008 softbank smiley">
+    </div>
+
+    <div class="container">
+      <img class="smiley" src="2010-apple.png" alt="2010 apple smiley">
+    </div>
+
+    <div class="container">
+      <img class="smiley" src="2012-apple.png" alt="2012 apple smiley">
+    </div>
+
+    <div class="container">
+      <img class="smiley" src="2016-apple.png" alt="2016 apple smiley">
+    </div>
+
+    <div class="container">
+      <img class="smiley" src="2019-apple.png" alt="2019 apple smiley">
+    </div>
+
+
+  </body>
+
+  <script type="text/javascript">
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName ("smiley");
+      for ( i = 0; i < x.length; i++ ) {
+        x[i].style.display = "none";
+      }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel,200);
+    }
+  </script>
+
+</html>

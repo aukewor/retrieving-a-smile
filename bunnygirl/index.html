@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>bunny girls
+    </title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <img class="bunnygirls" src="2000.gif" alt="2000 bunny girls">
+    </div>
+
+    <div class="container">
+      <img class="bunnygirls" src="2001.gif" alt="2001 bunny girls">
+    </div>
+
+    <div class="container">
+      <img class="bunnygirls" src="2004.gif" alt="2004 bunny girls">
+    </div>
+
+    <div class="container">
+      <img class="bunnygirls" src="2006.gif" alt="2006 bunny girls">
+    </div>
+
+    <!-- <div class="container">
+      <img class="bunnygirls" src="2008.gif" alt="2008 bunny girls">
+    </div> -->
+
+    <div class="container">
+      <img class="bunnygirls" src="2008-apple.png" alt="2008 apple bunny girls">
+    </div>
+
+    <div class="container">
+      <img class="bunnygirls" src="2010-apple.png" alt="2010 apple bunny girls">
+    </div>
+
+    <div class="container">
+      <img class="bunnygirls" src="2015-apple.png" alt="2015 apple bunny girls">
+    </div>
+
+    <div class="container">
+      <img class="bunnygirls" src="2016-apple.png" alt="2016 apple bunny girls">
+    </div>
+
+    <div class="container">
+      <img class="bunnygirls" src="2019-apple.png" alt="2019 apple bunny girls">
+    </div>
+
+
+  </body>
+
+  <script type="text/javascript">
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName ("bunnygirls");
+      for ( i = 0; i < x.length; i++ ) {
+        x[i].style.display = "none";
+      }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel,800);
+    }
+  </script>
+
+</html>
